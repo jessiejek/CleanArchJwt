@@ -1,0 +1,19 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+
+# Build folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Logs
+*.log
+
+# Secret configs
+appsettings.Development.json
+appsettings.Local.json

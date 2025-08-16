@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchJwt.Application", "src\CleanArchJwt.Application\CleanArchJwt.Application.csproj", "{B0038311-B4FD-4CB6-8A46-A663001752B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchJwt.Domain", "src\CleanArchJwt.Domain\CleanArchJwt.Domain.csproj", "{736C44FA-7E36-4610-B34C-CF976184C351}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6B55D6E-6CAB-4F7D-9DA9-D835D60D601E}"
+	ProjectSection(SolutionItems) = preProject
+		src\CleanArchJwt.Infrastructure\CleanArchJwt.Infrastructure.csproj = src\CleanArchJwt.Infrastructure\CleanArchJwt.Infrastructure.csproj
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchJwt.WebApi", "src\CleanArchJwt.WebApi\CleanArchJwt.WebApi.csproj", "{649239B2-0EC7-4E4F-8525-64E3174DC58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchJwt.Infrastructure", "src\CleanArchJwt.Infrastructure\CleanArchJwt.Infrastructure.csproj", "{730CF335-72C3-4B78-BCB1-14AB1216F27A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0038311-B4FD-4CB6-8A46-A663001752B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0038311-B4FD-4CB6-8A46-A663001752B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0038311-B4FD-4CB6-8A46-A663001752B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0038311-B4FD-4CB6-8A46-A663001752B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{736C44FA-7E36-4610-B34C-CF976184C351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736C44FA-7E36-4610-B34C-CF976184C351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736C44FA-7E36-4610-B34C-CF976184C351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736C44FA-7E36-4610-B34C-CF976184C351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{649239B2-0EC7-4E4F-8525-64E3174DC58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{649239B2-0EC7-4E4F-8525-64E3174DC58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{649239B2-0EC7-4E4F-8525-64E3174DC58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{649239B2-0EC7-4E4F-8525-64E3174DC58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730CF335-72C3-4B78-BCB1-14AB1216F27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730CF335-72C3-4B78-BCB1-14AB1216F27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730CF335-72C3-4B78-BCB1-14AB1216F27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730CF335-72C3-4B78-BCB1-14AB1216F27A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
